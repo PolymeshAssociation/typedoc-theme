@@ -2,7 +2,7 @@ import { Application, ParameterType } from 'typedoc';
 
 import { PolymeshTheme } from './theme';
 
-export function load(app: Application) {
+export function load(app: Application): void {
   app.renderer.defineTheme('polymesh-docs', PolymeshTheme);
 
   app.options.addDeclaration({
