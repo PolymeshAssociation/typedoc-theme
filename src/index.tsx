@@ -1,4 +1,5 @@
 import { Application, ParameterType } from 'typedoc';
+
 import { PolymeshTheme } from './theme';
 
 export function load(app: Application) {
