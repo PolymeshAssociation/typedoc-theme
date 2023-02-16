@@ -23,7 +23,7 @@
     "typedoc-theme"
   ],
   "engines": {
-    "node": ">= 14"
+    "node": ">= 18"
   },
   "scripts": {
     "build": "rm -rf ./dist && tsc",
