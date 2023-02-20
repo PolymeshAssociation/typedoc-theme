@@ -20,5 +20,5 @@
     "jsxFragmentFactory": "JSX.Fragment"
   },
   "include": ["src"],
-  "exclude": ["./dist"]
+  "exclude": ["dist"]
 }
