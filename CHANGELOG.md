@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/PolymeshAssociation/typedoc-theme/compare/v1.0.0...v1.0.1) (2023-02-23)
+
+
+### Bug Fixes
+
+* 🐛 release flow ([efc6c0c](https://github.com/PolymeshAssociation/typedoc-theme/commit/efc6c0c1a963e1e1fe58f53515289e94af1efe01))
+
 # 1.0.0 (2023-02-23)
 
 
