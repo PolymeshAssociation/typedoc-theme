@@ -13,7 +13,7 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
   "author": "The Polymesh Association",
   "license": "MIT",
   "bugs": {
