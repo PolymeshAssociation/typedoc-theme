@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/PolymeshAssociation/typedoc-theme.git"
   },
+  "publishConfig": {
+    "access": "public"
+  }
   "author": "The Polymesh Association",
   "license": "MIT",
   "bugs": {
