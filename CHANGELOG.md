@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/PolymeshAssociation/typedoc-theme/compare/v1.0.1...v1.1.0) (2023-02-27)
+
+
+### Features
+
+* 🎸 Add support for node 14 ([4038e6b](https://github.com/PolymeshAssociation/typedoc-theme/commit/4038e6b91625216d28966cacc27ba9883090e07a))
+
 ## [1.0.1](https://github.com/PolymeshAssociation/typedoc-theme/compare/v1.0.0...v1.0.1) (2023-02-23)
 
 
