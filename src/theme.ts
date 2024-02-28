@@ -25,7 +25,6 @@ const CATEGORY_POSITION = {
   [ReflectionKind.TypeAlias]: 5,
   [ReflectionKind.Variable]: 6,
   [ReflectionKind.Function]: 7,
-  [ReflectionKind.ObjectLiteral]: 8,
 };
 
 export class PolymeshTheme extends MarkdownTheme {
@@ -159,8 +158,8 @@ export class PolymeshTheme extends MarkdownTheme {
 
   getPageTitle(page: PageEvent<DeclarationReflection>) {
     const title: string[] = [];
-    if (page.model.kindString && page.url !== page.project.url) {
-      title.push(`${page.model.kindString}: `);
+    if (page.model.kind && page.url !== page.project.url) {
+      title.push(`${ReflectionKind.singularString(page.model.kind)}: `);
     }
     if (page.url === page.project.url) {
       title.push(this.indexTitle || page.project.name);
@@ -178,7 +177,7 @@ export class PolymeshTheme extends MarkdownTheme {
   }
 
   getName(page: PageEvent<DeclarationReflection>) {
-    if (page.model.kindString === 'Module') {
+    if (page.model.kind === ReflectionKind.Module) {
       const nameParts = page.model.name.split('/');
 
       if (nameParts[nameParts.length - 1] === 'types') {
