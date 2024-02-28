@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/PolymeshAssociation/typedoc-theme/compare/v1.1.0...v1.2.0) (2024-02-28)
+
+
+### Features
+
+* update to typedoc 0.24.0 and typedoc-plugin-markdown 3.17.0 to support for MDXv2 ([3327647](https://github.com/PolymeshAssociation/typedoc-theme/commit/3327647c4476ea10ea9440b49193b8cfdd0c5a0f))
+
+
+### Reverts
+
+* minimum node version ([d71b1b0](https://github.com/PolymeshAssociation/typedoc-theme/commit/d71b1b058f04ba462ff627512f5a46efeeb2cd65))
+
 # [1.1.0](https://github.com/PolymeshAssociation/typedoc-theme/compare/v1.0.1...v1.1.0) (2023-02-27)
 
 
